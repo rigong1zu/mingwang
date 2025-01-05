@@ -60,7 +60,7 @@ function NavBar() {
           onClick={() => router.navigate("/")}
         />
         <div className={`grow`} />
-        <ProjectLink />
+        {/* <ProjectLink /> */}
         <Announcement />
         <ModeToggle />
         {auth ? (

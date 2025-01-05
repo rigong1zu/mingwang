@@ -38,13 +38,14 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:8094",
+        // target: "http://localhost:8094",
+        // target: "http://mwx.onesoftcloud.com",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
         ws: true,
       },
       "/v1": {
-        target: "http://localhost:8094",
+        target: "http://mwx.onesoftcloud.com/",
         changeOrigin: true,
       }
     }

@@ -5,7 +5,7 @@ import { announcementEvent } from "@/events/announcement.ts";
 export let appName =
   localStorage.getItem("app_name") ||
   import.meta.env.VITE_APP_NAME ||
-  "Chat Nio";
+  "冥王星AI";
 export let appLogo =
   localStorage.getItem("app_logo") ||
   import.meta.env.VITE_APP_LOGO ||
@@ -74,7 +74,7 @@ export function setAppName(name: string): void {
   /**
    * set the app name in localStorage
    */
-  name = name.trim() || "Chat Nio";
+  name = name.trim() || "冥王星AI";
   setMemory("app_name", name);
   appName = name;
 

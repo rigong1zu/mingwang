@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 ![chatnio](/app/public/logo.png)
@@ -212,3 +213,6 @@ Thus, **Chat Nio** was born. We hope to create a project that has both a powerfu
 ## ❤ Donations
 
 If you find this project helpful, you can give it a Star to show your support!
+=======
+# mingwang
+>>>>>>> f676b1f5ea2cdfce2509a7cec490d5e0b496b586
